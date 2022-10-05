@@ -1,0 +1,74 @@
+*{ margin: 0;
+padding: 0;
+}
+
+.header {
+    padding: 60px;
+    text-align: right;
+    background: rgb(74, 68, 66);
+    color: rgb(217, 194, 194);
+    font-size: 30px;
+  } 
+  .image {
+    height: 270px;
+    width: 190px;
+    margin-top: -215px;
+    box-shadow: 2px 2px 2px 2px #828282;
+}
+  .container {
+    position: relative; 
+    width: 500%;
+    max-width: 300px;
+  }
+  
+
+.split {
+    height: 500px;
+    width: 650px;
+    z-index: 1;
+    position: fixed;
+
+    overflow-x: hidden;
+    top: 1;
+    padding-top: 50px;
+  }
+  .left {
+    left: 0;
+    background-color: rgb(199, 193, 199);
+  }
+
+  .right {
+    right: 0;
+    background-color: rgb(229, 211, 211);
+  }
+
+
+  .text{
+    padding: 10px;
+    text-align:top ;
+    font-size:25px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered img {
+    width: 230px;
+    border-radius: 50%;
+  }
+
+  .aboutMe{
+    margin-top: 2%;
+    border-top: solid 2px rgba(210, 210, 217, 0.75);
+    width: 73%;
+    margin-left: 14%;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+}
+
+    
+
