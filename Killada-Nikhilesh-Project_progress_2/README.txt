@@ -1,0 +1,1 @@
+I have designed a basic homepage frame. Also, I have tried to explore more about javascript to create a sophisticated webpage.
